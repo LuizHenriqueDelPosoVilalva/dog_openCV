@@ -1,7 +1,10 @@
 import cv2 as cv
 
-harcascade = 'DogAndCat-Face-Opencv-master/Cat_dog_face/dog_face.xml'
 
+#'DogAndCat-Face-Opencv-master/Cat_dog_face/dog_face.xml'
+harcascade = 'DogAndCat-Face-Opencv-master/Cat_dog_face/dog_face.xml'
+#'dogs_75/Anahi/Anahi 1.jpeg'
+#'dogs_75/Alexy/Alexy 1.jpeg'
 image = 'dogs_75/Alexy/Alexy 1.jpeg'
 
 # Carregando o classificador de faces

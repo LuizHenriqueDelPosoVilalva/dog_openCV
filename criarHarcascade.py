@@ -47,7 +47,6 @@ criar_positives_dat(imagens_positivas)
 criar_negatives_txt(diretorio_negativos)
 
 # Comando para treinar o classificador haar cascade
-# Comando para treinar o classificador haar cascade
 os.system(f'opencv_traincascade -data cascades -vec positives.dat -bg negatives.txt -numStages 20 -minHitRate 0.999 -maxFalseAlarmRate 0.5 -numPos 1000 -numNeg 600 -w 24 -h 24 -mode ALL -precalcValBufSize 1024 -precalcIdxBufSize 1024')
 
 
